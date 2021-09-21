@@ -1,0 +1,25 @@
+body{
+    background-image:url(/yuriy-chemerys-M-52SPN77Bg-unsplash.jpg);
+}
+.text{
+    text-align: center;
+}
+span{
+    color: rgb(245, 13, 13);
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.country{
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: lightgreen;
+}
+
+.country img {
+    width: 200px;
+}
